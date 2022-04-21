@@ -48,6 +48,11 @@ header {
   margin-left: 32px;
 }
 
+.nav_item > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .resume_button {
   background-color: #ffe741;
   color: #171321;
@@ -143,8 +148,6 @@ header {
   margin: 0 auto;
 }
 
-
-
 .section-about__header {
   width: fit-content;
   height: 58px;
@@ -191,7 +194,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
   width: 100%;
   height: 104px;
 }
@@ -207,16 +210,14 @@ header {
   color: #171321;
 }
 
-.contacts-icons{
+.contacts-icons {
   width: 208px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
-.contacts-items{
-
+.contacts-items {
 }
 
 .section-about__photo {
