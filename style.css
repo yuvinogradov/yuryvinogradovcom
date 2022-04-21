@@ -115,3 +115,114 @@ header {
   display: inline-block;
   width: 100%;
 }
+
+/*  SECTION ABOUT  */
+.section-about {
+  height: 1140px;
+  background-color: #ffffff;
+  /* border: black dotted 1px;
+  box-sizing: border-box;*/
+}
+
+/* .section-about__subwrapper {
+  height: 100%;
+  width: 100%;
+  border: green solid 1px;
+  box-sizing: border-box;
+} */
+
+.section-about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  /* width: 100%; */
+  height: 100%;
+  /* border: black solid 1px;
+  box-sizing: border-box; */
+  margin: 0 auto;
+}
+
+
+
+.section-about__header {
+  width: fit-content;
+  height: 58px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  text-align: center;
+  /* text-decoration-line: underline; */
+
+  color: #171321;
+
+  margin-top: 55px;
+  border-bottom: solid #171321 4px;
+}
+
+.section-about__content-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.section-about__text {
+  width: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: red solid 1px;
+  box-sizing: border-box; */
+}
+.section-about__text-text {
+  /* height: 648px; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #171321;
+}
+
+.section-about__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    align-items: center;
+  width: 100%;
+  height: 104px;
+}
+
+.contacts-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #171321;
+}
+
+.contacts-icons{
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.contacts-items{
+
+}
+
+.section-about__photo {
+  /* border: blue solid 1px;
+  box-sizing: border-box; */
+  width: 608px;
+  height: 839px;
+  margin-top: 32px;
+}
