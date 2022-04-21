@@ -1,9 +1,117 @@
+/* @font-face {
+  font-family: "Work Sans";
+  src: url(fonts/WorkSans-VariableFont_wght.ttf) format("truetype");
+} */
+
+body {
+  margin: 0;
+  /* font-family: "Work Sans", Arial, sans-serif; */
+  font-family: "Work Sans", Arial, sans-serif;
+  /* opacity: 0; */
+}
+
 .wrapper {
-  width: 1280px;
+  max-width: 1360px;
+  /* width: 100%; */
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 header {
   background-color: #171321;
   color: #fff;
   height: 72px;
+}
+
+.section-header {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.section-header__logo {
+}
+
+.top-menu {
+  list-style-type: none;
+}
+
+.nav_item {
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.resume_button {
+  background-color: #ffe741;
+  color: #171321;
+  padding: 3px 10px 4px;
+  border-radius: 3px;
+}
+
+.separator-line {
+  background-color: #961d6e;
+  height: 4px;
+}
+
+.section-name {
+  height: 596px;
+  background-color: #ffe741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-name__content {
+  /* border: 10px red solid; */
+  /* box-sizing: border-box; */
+  width: 484px;
+  height: 278px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.section-name__content-firstname {
+  height: calc(100% - 75px - 44px);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 173px;
+  text-align: center;
+  letter-spacing: 0.195em;
+
+  color: #171321;
+}
+
+.section-name__content-lastname {
+  height: 75px;
+  color: #ffe741;
+  background-color: #171321;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.section-name__content-motto {
+  height: 44px;
+  margin-right: -11px;
+  color: #171321;
+  text-align: justify;
+  /* text-align: center; */
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 11px;
+}
+.section-name__content-motto::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
