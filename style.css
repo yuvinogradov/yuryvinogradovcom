@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1360px;
+  max-width: 1000px;
   /* width: 100%; */
   height: 100%;
   margin: 0 auto;
@@ -124,8 +124,9 @@ header {
 
 /*  SECTION ABOUT  */
 .section-about {
-  height: 1140px;
+  /* height: 1140px; */
   background-color: #ffffff;
+  padding: 80px 0;
   /* border: black dotted 1px;
   box-sizing: border-box;*/
 }
@@ -141,12 +142,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: calc(100% - 40px);
+  /* width: calc(100% - 40px); */
   /* width: 100%; */
   height: 100%;
   /* border: black solid 1px;
   box-sizing: border-box; */
-  margin: 0 auto;
+  margin: 0;
 }
 
 .section-about__header {
@@ -163,7 +164,7 @@ header {
 
   color: #171321;
 
-  margin-top: 55px;
+  /* margin-top: 55px; */
   border-bottom: solid #171321 4px;
 }
 
@@ -175,17 +176,18 @@ header {
 }
 
 .section-about__text {
-  width: 608px;
+  /* width: 608px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
   /* border: red solid 1px;
   box-sizing: border-box; */
 }
 .section-about__text-text {
   /* height: 648px; */
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
 
   color: #171321;
@@ -198,6 +200,7 @@ header {
   align-items: center;
   width: 100%;
   height: 104px;
+  margin-top: 120px;
 }
 
 .contacts-header {
@@ -224,18 +227,19 @@ header {
 .section-about__photo {
   /* border: blue solid 1px;
   box-sizing: border-box; */
-  width: 608px;
-  height: 839px;
-  margin-top: 32px;
+  width: fit-content;
+  /* height: 839px; */
+  margin-top: 20px;
 }
 
 /*  SECTION SKILLS  */
 .section-skills {
   background-color: #87fffb;
+  padding: 80px 0;
 }
 
 .section-skills__content {
-  margin: 0 20px;
+  margin: 0;
   height: 100%;
   padding-top: 0.1px;
   padding-bottom: 0.1px;
@@ -253,7 +257,8 @@ header {
   flex-wrap: wrap;
   margin-top: 86px;
   margin-bottom: 60px;
-  gap: 64px;
+  column-gap: 87px;
+  row-gap: 60px;
 }
 
 .section-skills__content-icons::after {
@@ -261,12 +266,17 @@ header {
   flex: auto;
 }
 
-.skills-item{
+.skills-item {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .skills-item > img {
-  height: 160px;
-  width: 160px;
+  height: 60px;
+  width: 60px;
 }
 
 .skills-item-header {
@@ -276,16 +286,20 @@ header {
   font-size: 24px;
 }
 
-
 /*  SECTION  */
-.section-works__content-wrap{
+.section-works{
+  padding: 80px 0;
+}
+
+.section-works__content-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 140px;
   row-gap: 100px;
+  
 }
 
 /* .section-works__content-wrap::after {
@@ -293,32 +307,32 @@ header {
   flex: auto;
 } */
 
-.work-item{
+.work-item {
   width: 360px;
   height: 480px;
   display: flex;
-  
+
   flex-direction: column;
   align-items: center;
 }
 
-.work-item>img{
+.work-item > img {
   box-shadow: 0px 0px 1px 1px #ccc;
-  width: 100%;
+  width: 360px;
+  height: 360px;
 }
 
-.work-header{
+.work-header {
   margin-top: 20px;
   font-size: 20px;
 }
 
-.work-desc{
+.work-desc {
   margin-top: 6px;
   font-size: 16px;
 }
 
-.work-stack{
+.work-stack {
   margin-top: 10px;
   font-size: 10px;
 }
-
