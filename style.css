@@ -482,7 +482,7 @@ header {
   .section-skills__content-icons {
     margin-top: 28px;
     margin-bottom: 60px;
-    column-gap: 1px;
+    column-gap: calc((100% - 86px * 3) / 2);
     row-gap: 24px;
   }
 
