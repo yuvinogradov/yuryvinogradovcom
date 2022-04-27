@@ -339,6 +339,22 @@ header {
   font-size: 12px;
 }
 
+.coming-soon {
+  background-color: #ffe741;
+  color: #171321;
+  width: 360px;
+  height: 360px;
+  box-shadow: 0px 0px 1px 1px #ccc;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.coming-soon>p{
+  margin-top: 110px;
+}
+
 @media screen and (max-width: 980px) {
   .wrapper {
     padding: 0 10px;
