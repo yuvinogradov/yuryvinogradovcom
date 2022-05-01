@@ -260,7 +260,9 @@ header {
   flex-wrap: wrap;
   margin-top: 86px;
   margin-bottom: 60px;
-  column-gap: 87px;
+  /* column-gap: 87px; */
+  column-gap: calc((100% - 130px * 4) / 3);
+
   row-gap: 60px;
 }
 
@@ -560,23 +562,23 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    .section-skills__content-icons {
+  .section-skills__content-icons {
     column-gap: calc((100% - 86px * 4) / 3);
   }
 }
 
 @media screen and (max-width: 576px) {
-    .section-skills__content-icons {
+  .section-skills__content-icons {
     column-gap: calc((100% - 86px * 3) / 2);
   }
 }
 
 @media screen and (max-width: 400px) {
-    .section-skills__content-icons {
+  .section-skills__content-icons {
     column-gap: calc((100% - 86px * 2) / 1);
   }
 
-  .work-item{
+  .work-item {
     width: 240px;
   }
 }
