@@ -8,6 +8,87 @@ body {
   /* font-family: "Work Sans", Arial, sans-serif; */
   font-family: "Work Sans", Arial, sans-serif;
   /* opacity: 0; */
+  /* overflow: hidden; */
+}
+
+.black-pad {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: none;
+}
+
+#work-card {
+  background-color: #ffffff;
+  width: 816px;
+  display: block;
+  position: fixed;
+  /* height: 80vh; */
+  border-radius: 20px;
+  left: calc((100vw - 816px) / 2);
+  top: 10vh;
+  text-align: center;
+}
+/* 
+#work-card-header{
+
+} */
+.close-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: #888;
+  border-radius: 50%;
+  /* transition: 0.6s; */
+    color: white;
+}
+
+.close-button:hover {
+  background-color: #171321;
+}
+
+.close-button:after {
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+  font-size: 32px;
+  line-height: 100%;
+}
+
+
+#work-title {
+  font-size: 32px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+#work-description {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+#work-stack {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+#work-url {
+  margin-top: 8px;
+}
+
+#work-image {
+  height: auto;
+  margin: 16px;
+  margin-bottom: 10px;
+}
+
+#work-image img {
+  width: 100%;
+  /* border: 1px #ccc solid; */
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3);
+  border-radius: 0 0 10px 10px;
 }
 
 .wrapper {
