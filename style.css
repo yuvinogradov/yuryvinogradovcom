@@ -24,7 +24,7 @@ body {
   width: 816px;
   display: none;
   position: fixed;
-  height: 80vh;
+  /* height: 80vh; */
   border-radius: 20px;
   left: calc((100vw - 816px) / 2);
   top: 4vh;
@@ -446,7 +446,7 @@ header {
     width: 400px;
     display: none;
     position: fixed;
-    height: 90vh;
+    /* height: 90vh; */
     border-radius: 20px;
     left: calc((100vw - 400px) / 2);
     top: 4vh;
