@@ -108,6 +108,8 @@ header {
   background-color: #171321;
   color: #fff;
   height: 72px;
+  position: sticky;
+  top: 0;
 }
 
 .section-header {
@@ -153,6 +155,8 @@ header {
 .separator-line {
   background-color: #961d6e;
   height: 4px;
+  position: sticky;
+  top: 72px;
 }
 
 /*  SECTION NAME */
@@ -501,6 +505,10 @@ header {
   }
   .nav_item {
     margin: 0;
+  }
+
+  .separator-line {
+    top: 94px;
   }
 
   .section-name {
