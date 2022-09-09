@@ -62,7 +62,7 @@ function showWork(i) {
     document.body.style.overflow = 'hidden'
     const paddingElements = document.querySelectorAll('.add-padding-on-scroll-hide');
     for (i of paddingElements) {
-        i.style = 'padding-right: ' + getScrollbarWidth() + 'px;'
+        // i.style = 'padding-right: ' + getScrollbarWidth() + 'px;'
     }
 
 
@@ -74,7 +74,7 @@ function closeWork() {
     document.body.style.overflow = 'auto'
     const paddingElements = document.querySelectorAll('.add-padding-on-scroll-hide');
     for (i of paddingElements) {
-        i.style = 'padding-right: ' + 0 + 'px;'
+        // i.style = 'padding-right: ' + 20 + 'px;'
     }
 }
 
