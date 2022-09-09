@@ -9,9 +9,6 @@ const data = [
     },
 ]
 
-
-
-
 const contentWrap = document.querySelector("#content-wrap")
 contentWrap.innerHTML = ''
 const workCard = document.querySelector("#work-card")
@@ -64,8 +61,6 @@ function showWork(i) {
     for (i of paddingElements) {
         i.style = 'padding-right: ' + getScrollbarWidth() + 'px;'
     }
-
-
 }
 
 function closeWork() {
@@ -74,12 +69,11 @@ function closeWork() {
     document.body.style.overflow = 'auto'
     const paddingElements = document.querySelectorAll('.add-padding-on-scroll-hide');
     for (i of paddingElements) {
-        i.style = 'padding-right: ' + 0 + 'px;'
+        i.style = 'padding-right: ' + 20 + 'px;'
     }
 }
 
 function getScrollbarWidth() {
-
     // Creating invisible container
     const outer = document.createElement('div');
     outer.style.visibility = 'hidden';
