@@ -655,7 +655,9 @@ header {
 } */
 
   .work-item {
+    max-width: 360px;
     width: 100%;
+    margin: 0 auto;
     height: auto;
   }
 
@@ -686,12 +688,13 @@ header {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 398px) {
   .section-skills__content-icons {
-    column-gap: calc((100% - 86px * 2) / 1);
+    /* column-gap: calc((100% - 86px * 2) / 1); */
   }
 
   .work-item {
     width: 240px;
+    margin: 0 auto;
   }
 }
